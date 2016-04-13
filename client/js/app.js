@@ -17,6 +17,16 @@ var app = angular.module('fullMeanWall', ['ngRoute'])
          templateUrl: './partials/news.html'
 
       })
+
+      .when('/news2', {
+         templateUrl: './partials/news2.html'
+
+      })
+
+      .when('/news3', {
+         templateUrl: './partials/news3.html'
+
+      })
       .when('/events', {
          templateUrl: './partials/events.html'
 
