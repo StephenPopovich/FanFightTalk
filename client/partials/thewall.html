@@ -1,0 +1,65 @@
+<div class="container">
+
+      <img class="z-depth-5" src="./static/images/News.png" style="width: 100%; height: 120px; padding: 2px;" alt="FanfightTalk">
+
+
+
+          <div class="row">
+              <div class="col s12">
+                <h3>Jon Jone's is still ready to fight, after DC's injury</h3>
+              </div>
+              <div class="col s6">
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/ckgFlRxoN2M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col s6">
+                <p><strong>Jon Jones (21 - 1 - 0)</strong> usually not a fan of last minute match ups, but is telling the UFC he will take any lightweight or heavyweight </p>
+                <p>After DC injuried his leg earlier this month, Jones is not skipping a beat and trying to make it up to his fans.</p>
+                <p> He is now set to face  Ovince Saint Preux (19 - 7 - 0) at UFC 197, a unusual match up </p>
+                <p> Are you the fans happy with this decision and do you think Jones is ready to return to the UFC?</p>
+              </div>
+            </div>
+
+
+    <div class="row">
+
+      <div class="col s7">
+        <h4>Welcome {{currentUser.name}} representing the "( {{currentUser.zipcode}} )"!    <button ng-click="logout()" class="waves-effect waves-red btn"><h6><i class="material-icons right">input</i>Logout</h6></button></h4>
+      </div>
+      <div class="col s5">
+      </div>
+    </div>
+    <hr>
+
+    <label for="">Post a message:</label>
+    <textarea ng-model="newMessage.message"></textarea>
+    <button ng-click="postMessage(newMessage)" class="waves-effect waves-red btn"><i class="material-icons left">mode_edit</i>Post a Message</button>
+
+
+    <div class="messages">
+      <div class="message" ng-repeat="message in messages">
+      <hr>
+        <strong>
+          <span ng-bind="message.user.name"></span>  (<span ng-bind="message.user.zipcode"></span>) -
+          <a href="/#/posts/{{message._id}}"><span ng-bind="message.created_at | date"></span></a>
+        </strong>
+        <p ng-bind="message.message"></p>
+
+        <div class="comments" style="margin-left: 35px">
+          <div ng-repeat="comment in message.comments">
+            <strong>
+              <span ng-bind="comment.user.name"></span> (<span ng-bind="comment.user.zipcode"></span>)  -
+              <span ng-bind="comment.created_at | date"></span>
+            </strong>
+              <p ng-bind="comment.comment"></p>
+          </div>
+
+          <label for="">Post a commnet:</label>
+          <textarea ng-model="newComment.comment"></textarea>
+          <button ng-click="postComment(newComment, message)" class="waves-effect waves-red btn"><i class="material-icons left">chat_bubble_outline</i>Post a Comment</button>
+
+        </div>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "name": "mean_wall",
+  "version": "1.0.0",
+  "description": "a mean wall",
+  "main": "server.js",
+  "keywords": [
+    "cool",
+    "demo"
+  ],
+  "author": "lance@robotson.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.10",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
