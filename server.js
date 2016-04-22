@@ -9,6 +9,6 @@ app.use(express.static(path.join(__dirname, './client')));
 require('./server/config/mongoose.js');
 var route_setter = require('./server/config/routes.js')(app);
 
-app.listen(8888, function(){
-  console.log("Hey Ryan! Whats up? FAN FIGHT TALK IS NOW ONLINE...");
+app.listen(8000, function(){
+  console.log("Fanfighttalk online on port 8000");
 })

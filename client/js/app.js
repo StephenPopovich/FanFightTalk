@@ -31,6 +31,18 @@ var app = angular.module('fullMeanWall', ['ngRoute'])
          templateUrl: './partials/events.html'
 
       })
+      .when('/ufc', {
+         templateUrl: './partials/ufc.html'
+
+      })
+      .when('/bellator', {
+         templateUrl: './partials/bellator.html'
+
+      })
+      .when('/other', {
+         templateUrl: './partials/other.html'
+
+      })
       .when('/podcast', {
          templateUrl: './partials/podcast.html'
       })
