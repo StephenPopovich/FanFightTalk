@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Fan Fight Talk</title>
-  <meta name="Fanfighttalk.com" content="">
+  <meta name="Fanfighttalk.com" content="MMA news website for the fans by the fans">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
@@ -35,7 +35,7 @@
            <ul id="dropdown2" class="dropdown-content">
              <li><a href="#/ufc">UFC</a></li>
              <li class="divider"></li>
-             <li><a href="#/bellator">Bellator (not in English)r</a></li>
+             <li><a href="#/bellator">Bellator (not in English)</a></li>
              <li class="divider"></li>
              <li><a href="#/other">Other</a></li>
              </ul>
@@ -78,7 +78,7 @@
                    <img class="responsive-img" src="http://assets1.sportsnet.ca/wp-content/uploads/2015/12/mcgregor_conor-1040x572.jpg"> <!-- random image -->
                    <div class="caption left-align">
                      <h3>Fight Videos</h3>
-                     <h5 class="light grey-text text-lighten-3">Replay that knockout from last night!</h5>
+                     <h5 class="light red-text text-lighten-9">Replay that knockout from last night!</h5>
                    </div>
                  </li>
                  <li>
@@ -92,14 +92,14 @@
                    <img class="responsive-img" src="https://1prso3391sqpaf1e11k5i8s1-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Conor-McGregor-Dave-Mandel-Sherdog-640x330.jpg"  atl="photo by Josh Hedges at Getty/UFC">
                    <div class="caption center-align">
                      <h3>Upcoming Events</h3>
-                     <h5 class="light grey-text text-lighten-3">Who do you got?</h5>
+                     <h5 class="light red-text text-lighten-9">Who do you got?</h5>
                    </div>
                  </li>
                  <li>
                    <img class="responsive-img" src="http://www.adweek.com/socialtimes/wp-content/uploads/sites/2/2013/06/shutterstock_101042335.jpg" atl=""> <!-- random image -->
                    <div class="caption center-align">
-                     <h3>Chatroom coming soon...</h3>
-                     <!-- <h5 class="light grey-text text-lighten-3">Discuss, argue, chat with fans while the fights happen!!!</h5> -->
+                     <h3>Chatroom</h3>
+                     <h5 class="light black-text text-darken-4">Discuss, argue, chat with other fans during the fights happen!!!</h5>
                    </div>
                  </li>
                </ul>
@@ -110,65 +110,71 @@
 
           <div class="center-align">
               <div class="row">
-               <div class="col s4">
 
-                 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/fanfighttalk" data-widget-id="716485143699935233">Tweets by @fanfighttalk</a>
-                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-             <h5>Follow: <a href="https://twitter.com/fanfighttalk" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @fanfighttalk</a>
-
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </h5>
-
-
-               </div>
-
-               <div class="col s5">
-                 <p id="clock"><u>It is currently<u>:<p id="demo"></p>
-                 <h3>Welcome to <strong> Fan Fight Talk</strong>.com </h3>
-                <img class="circle responsive-img" id="main_logo" src="./static/images/glove.png" alt="FanfightTalk"></a>
-               </div>
-
-               <div class="col s3">
-                 <div class="ig-root 1Y24B6 clearfix"> </div>
-                    <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-                    <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3a3cafecf4475bba9ef40f1cae4dc545.html" id="lightwidget_3a3cafecf4" name="lightwidget_3a3cafecf4"  scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
-
-                    <a href="https://www.instagram.com/fanfighttalk/"><h5>Follow: <span class="ig-follow" data-id="f3840c97bb"  data-handle="fanfighttalk" data-count="true" data-size="large" data-username="true"></span></h5></a>
-                      <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
+                  <div class="col s12">
+                    <h3><strong> Fan Fight Talk</strong>.com <img class="circle responsive-img" id="main_logo" src="./static/images/glove.png" alt="FanfightTalk"></a></h3>
+                    <h4 id="clock"><u>It is currently</u>:<i id="demo"></i></h4>
                   </div>
+
+
+                 <div id="instagram_widget" class="col s5">
+                    <div class="ig-root 1Y24B6 clearfix">
+                          <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+                          <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3a3cafecf4475bba9ef40f1cae4dc545.html" id="lightwidget_3a3cafecf4" name="lightwidget_3a3cafecf4"  scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
+
+                            <a href="https://www.instagram.com/fanfighttalk/"><h5>Follow: <span class="ig-follow" data-id="f3840c97bb"  data-handle="fanfighttalk" data-count="true" data-size="large" data-username="true"></span></h5></a>
+                            <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
+                        </div>
+                    </div>
+                    <div class="col s2">
+                      <h4 id="getfollowers">Follow!!!</h4>
+                    </div>
+                    <div id="twitter_widget" class="col s5">
+
+                      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/fanfighttalk" data-widget-id="716485143699935233">Tweets by @fanfighttalk</a>
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                       <h5>Follow: <a href="https://twitter.com/fanfighttalk" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @fanfighttalk</a>
+
+                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                       </h5>
+
+
+                    </div>
              </div>
            </div>
            <hr>
            <div class="row" ng-view>
 
            </div>
+           <hr>
     </div>
-        <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5><u>Fanfighttalk.com</u> <i>"Where the viewers are the reporters!"</i></h5>
-            <p> Thank you for visiting our site, feel free to send us content, questions, tweets or comments.</p>
-            <p> Share our page with your friends! E-mail if you're a fighter looking for mutual exposure for an interview.</p>
-            <p class="grey-text text-lighten-4"></p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5><u>Social Media:</u></h5>
-            <ul id="footer_imgs">
-              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/instagram.png" alt="Our Instagram" />Instgram - Follow us!</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://twitter.com/fanfighttalk"><img src="static/images/twitter.png" alt="Our Twitter" /> Twitter - Follow us!</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/fanfighttalk/"> <img src="static/images/facebook.png" alt="Our Facebook Group" />Facebook Group - Join! us!</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://fanfighttalk@gmail.com"> <img src="static/images/google.png" alt="Our E-mail" />Email US</a></li>
-            </ul>
-          </div>
-        <div class="pain">
-          <img class="circle responsive-img" id="footer_logo" src="./static/images/glove.png" alt="FanfightTalk"></a>
-          <p>Photos and videos from <a href="http://www.sherdog.com/">Sherdog.com</a></p>
-            <a class="grey-text text-lighten-4 right" href="#/">Founded in March 15th, 2016</a>
-        </div>
 
-        </div>
-      </div>
+        <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5><u>Fanfighttalk.com</u><i>"Where the viewers are the reporters!"</i></h5>
+                  <p> Thank you for visiting our site, feel free to send us content, questions, tweets or comments.</p>
+                  <p> Share our page with your friends! E-mail if you're a fighter looking for mutual exposure for an interview.</p>
+                  <p class="grey-text text-lighten-4"></p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5><u>Social Media:</u></h5>
+                    <ul id="footer_imgs">
+                      <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/Instagram.png" alt="Our Instagram" />  Instgram - Follow us!</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://twitter.com/fanfighttalk"><img src="static/images/twitter.png" alt="Our Twitter" />   Twitter - Follow us!</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/fanfighttalk/"> <img src="static/images/Facebook.png" alt="Our Facebook Group" />  Facebook Group - Join! us!</a></li>
+                      <li><a class="grey-text text-lighten-3" href="https://fanfighttalk@gmail.com"> <img src="static/images/google.png" alt="Our E-mail" />  Email US</a></li>
+                    </ul>
+                </div>
+                  <div class="pain">
+                    <img class="circle responsive-img" id="footer_logo" src="./static/images/glove.png" alt="FanfightTalk"></a>
+                    <p>Thanks to:<a href="http://www.sherdog.com/">Sherdog.com</a></p>
+                      <a class="grey-text text-lighten-4 right" href="#/">Founded March 15th, 2016</a>
+                  </div>
+
+              </div>
+            </div>
     </footer>
 
 
