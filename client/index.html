@@ -46,7 +46,7 @@
                   <a href="#/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                  <ul class="right hide-on-med-and-down">
                    <li><a href="#/news"><i class="material-icons left">language</i>News</a></li>
-                 	<li><a class="dropdown-button" href="#/videos"  data-activates="dropdown2"><i class="material-icons left">video_library</i>Videos</a></li>
+                 	<li><a class="dropdown-button" href="#/videos" class="button-collapse show-on-large" data-activates="dropdown2"><i class="material-icons left">video_library</i>Videos</a></li>
              			<li><a href="#/podcast"><i class="material-icons left">play_circle_outline</i>Podcast</a></li>
              			<li><a href="#/events"><i class="material-icons left">today</i>Upcoming Events</a></li>
              			<li><a href="#/title_holders"><i class="material-icons left">perm_identity</i>Title Holders</a></li>
@@ -109,35 +109,32 @@
             </div>
      	</header>
     <div class="container">
-
-          <div class="center-align">
               <div class="row">
-
-                  <div class="col s12">
-                    <h3><strong> Fan Fight Talk</strong>.com <img class="circle responsive-img" id="main_logo" src="./static/images/glove.png" alt="FanfightTalk"></a></h3>
-                    <h4 id="clock"><u>It is currently</u>:<i id="demo"></i></h4>
+                  <div class="center-align">
+                    <div class="col s12">
+                      <h3><strong> Fan Fight Talk</strong>.com <img class="circle responsive-img" id="main_logo" src="./static/images/glove.png" alt="FanfightTalk"></a></h3>
+                      <h4 id="clock"><u>It is currently</u>:<i id="demo"></i></h4>
+                    </div>
                   </div>
 
 
-                    <div id="instagram_widget" class="col s5">
-                      <div class="ig-root 1Y24B6 clearfix">
+                    <div  class="video-container" id="instagram_widget" class="col s6">
+
+                          <div class="ig-root 1Y24B6 clearfix">
                             <script src="//lightwidget.com/widgets/lightwidget.js"></script>
                             <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3a3cafecf4475bba9ef40f1cae4dc545.html" id="lightwidget_3a3cafecf4" name="lightwidget_3a3cafecf4"  scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
 
                               <a href="https://www.instagram.com/fanfighttalk/"><h5>Follow: <span class="ig-follow" data-id="f3840c97bb"  data-handle="fanfighttalk" data-count="true" data-size="large" data-username="true"></span></h5></a>
                               <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
                           </div>
+
                       </div>
 
-                      <div class="col s1">
-                        <h4 id="getfollowers">Follow!!!</h4>
-                      </div>
-
-                      <div id="twitter_widget" class="col s5">
+                      <div class="video-container" id="twitter_widget" class="col s6">
 
                         <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/fanfighttalk" data-widget-id="716485143699935233">Tweets by @fanfighttalk</a>
                           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                         <h5>Follow: <a href="https://twitter.com/fanfighttalk" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @fanfighttalk</a>
+                            <h5>Follow: <a href="https://twitter.com/fanfighttalk" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @fanfighttalk</a>
 
                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                          </h5>
@@ -145,7 +142,7 @@
 
                       </div>
              </div>
-           </div>
+
            <hr>
            <div class="row" ng-view>
 
