@@ -345,9 +345,21 @@ a:active {
     color: black;
 }
 
-/* mouse over link */
+/* mouse over image */
 img:hover {
   box-shadow: 9px 9px 12px 6px white;
+
+}
+
+#twitter_widget iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#lightwidget_3a3cafecf4{
+  width: 180px;
+  height: 100%;
+
 
 }
 
