@@ -138,6 +138,10 @@ h5, h4, h3, h10, ul{
   font-family: 'Allerta Stencil', sans-serif;
   color: white;
 }
+#worldmap script{
+  width: 25%;
+  height: 25%;
+}
 #getfollowers{
   opacity: 0.8;
 }
