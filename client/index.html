@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Fan Fight Talk</title>
-    <meta name="Fanfighttalk.com" content="MMA news website for the fans by the fans">
+    <meta name="Fanfighttalk.com" content="MMA news website for the fans by the fans. Everything UFC, Bellator and More! Free full fights, live chatroom, message board and more! A fast up to day website MMA fans deserve!">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
      <link href='https://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
@@ -23,7 +25,6 @@
   </head>
 <body>
   <header>
-         <img src="./static/images/Banner2.png" id='banner'  alt="FanfightTalk">
 
            <ul id="dropdown1" class="dropdown-content">
                <li><a href="#/ufc">UFC</a></li>
@@ -42,7 +43,7 @@
              </ul>
              <nav class= "#b71c1c red darken-4">
                <div class="nav-wrapper">
-                 <a href="#/" class="brand-logo">Fan fight Talk <img class="circle responsive-img" src="./static/images/glove.png" alt="FanfightTalk"></a>
+                 <a href="#/" class="brand-logo"><img class="responsive-img" id="minibanner" src="./static/images/minibanner.png" alt="FanfightTalk"> <img class="circle responsive-img" id="minilogo" src="./static/images/glove.png" alt="FanfightTalk"></a>
                   <a href="#/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                  <ul class="right hide-on-med-and-down">
                    <li><a href="#/news"><i class="material-icons left">language</i>News</a></li>
@@ -58,7 +59,7 @@
                    <li><a class="dropdown-button" href="#/videos"  data-activates="dropdown1"><i class="material-icons left">video_library</i>Videos</a></li>
                    <li><a href="#/podcast" ><i class="material-icons left">play_circle_outline</i>Podcast</a></li>
                    <li><a href="#/events" ><i class="material-icons left">today</i>Events</a></li>
-                   <li><a href="#/title_holders" ><i class="material-icons left">perm_identity</i>Ranking</a></li>
+                   <li><a href="#/title_holders" ><i class="material-icons left">perm_identity</i>Rankings</a></li>
                    <li><a href="#/chatroom"><i class="material-icons left">play_circle_outline</i>Chat</a></li>
                    <li><a href="#/contact" ><i class="material-icons left">email</i>Contact</a></li>
                  </ul>
@@ -68,111 +69,99 @@
             <div class="row">
 
               <div class="slider">
-               <ul class="slides">
-                 <li>
-                   <img class="responsive-img" src="http://media.ufc.tv/photo_galleries/IFW_Presser_1/IFW_Presser_1-ufc175_tix_presser_001.jpg"> <!-- random image -->
-                   <div class="caption center-align">
-                     <h3>Get the lastest MMA NEWS!</h3>
-                     <h5 class="light grey-text text-lighten-3">Be the first to know!</h5>
-                   </div>
-                 </li>
-                 <li>
-                   <img class="responsive-img" src="http://assets1.sportsnet.ca/wp-content/uploads/2015/12/mcgregor_conor-1040x572.jpg"> <!-- random image -->
-                   <div class="caption left-align">
-                     <h3>Fight Videos</h3>
-                     <h5 class="light red-text text-lighten-9">Replay that knockout from last night!</h5>
-                   </div>
-                 </li>
-                 <li>
-                   <img class="responsive-img" src="http://startuplifehacks.com/wp-content/uploads/2015/08/desk1.jpg"> <!-- random image -->
-                   <div class="caption right-align">
-                     <h3>Podcast</h3>
-                     <h5 class="light grey-text text-lighten-3">Coming Soon!</h5>
-                   </div>
-                 </li>
-                 <li>
-                   <img class="responsive-img" src="https://1prso3391sqpaf1e11k5i8s1-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Conor-McGregor-Dave-Mandel-Sherdog-640x330.jpg"  atl="photo by Josh Hedges at Getty/UFC">
-                   <div class="caption center-align">
-                     <h3>Upcoming Events</h3>
-                     <h5 class="light red-text text-lighten-9">Who do you got?</h5>
-                   </div>
-                 </li>
-                 <li>
-                   <img class="responsive-img" src="http://www.adweek.com/socialtimes/wp-content/uploads/sites/2/2013/06/shutterstock_101042335.jpg" atl=""> <!-- random image -->
-                   <div class="caption center-align">
-                     <h3>Chatroom</h3>
-                     <h5 class="light black-text text-darken-4">Discuss, argue, chat with other fans during the fights happen!!!</h5>
-                   </div>
-                 </li>
-               </ul>
-             </div>
+
+                   <ul class="slides">
+                     <li>
+                       <img id="slide_img" class="responsive-img" src="http://www.sportsfightstate.com/wp-content/uploads/2016/03/Conor-McGregor-vs-Nate-Diaz-rematch-planned-latest-news.jpg"> <!-- random image -->
+                       <div class="caption right-align">
+                         <h3>The lastest MMA NEWS!</h3>
+                         <h6 class="light blue-text text-lighten-7">Be the first to know!</h6>
+                       </div>
+                     </li>
+                     <li>
+                       <img id="slide_img" class="responsive-img" src="http://assets1.sportsnet.ca/wp-content/uploads/2015/12/mcgregor_conor-1040x572.jpg"> <!-- random image -->
+                       <div class="caption left-align">
+                         <h3>Fight Videos</h3>
+                         <h6 class="light yellow-text text-lighten-2">Free Full Fights!</h6>
+                       </div>
+                     </li>
+                     <li>
+                       <img id="slide_img" class="responsive-img" src="http://startuplifehacks.com/wp-content/uploads/2015/08/desk1.jpg"> <!-- random image -->
+                       <div class="caption right-align">
+                         <h3>Podcast</h3>
+                         <h6 class="light blue-text text-lighten-3">Coming Soon!</h6>
+                       </div>
+                     </li>
+                     <li>
+                       <img id="slide_img" class="responsive-img" src="https://1prso3391sqpaf1e11k5i8s1-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Conor-McGregor-Dave-Mandel-Sherdog-640x330.jpg"  atl="photo by Josh Hedges at Getty/UFC">
+                       <div class="caption left-align">
+                         <h3>Upcoming Events</h3>
+                         <h6 class="light white-text text-lighten-3">Who do you got?</h6>
+                       </div>
+                     </li>
+                     <li>
+                       <img id="slide_img" class="responsive-img" src="http://www.adweek.com/socialtimes/wp-content/uploads/sites/2/2013/06/shutterstock_101042335.jpg" atl=""> <!-- random image -->
+                       <div class="caption center-align">
+                         <h3>Chatroom</h3>
+                         <h6 class="light black-text text-darken-4">Chat live during the fights!</h6>
+                       </div>
+                     </li>
+                   </ul>
+              </div>
             </div>
      	</header>
-    <div class="container">
               <div class="row">
                   <div class="center-align">
-                    <div class="col s12">
-                      <h3><strong> Fan Fight Talk</strong>.com <img class="circle responsive-img" id="main_logo" src="./static/images/glove.png" alt="FanfightTalk"></a></h3>
-                      <h4 id="clock"><u>It is currently</u>:<i id="demo"></i></h4>
-                    </div>
-                  </div>
 
+                        <div class="col s12">
 
-                    <div  class="video-container" id="instagram_widget" class="col s6">
+                            <div id="social_media">
+                                <a class="grey-text text-lighten-3" href="https://twitter.com/fanfighttalk"><img src="static/images/tw.png" alt="Our Twitter" /></a>
+                                <a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/Instagram.png" alt="Our Instagram" /></a>
+                                <a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/fanfighttalk/"> <img src="static/images/Facebook.png" alt="Our Facebook Group" /></a>
+                                <a class="grey-text text-lighten-3" href="https://fanfighttalk@gmail.com"> <img src="static/images/google.png" alt="Our E-mail" /></a>
+                            </div>
 
-                          <div class="ig-root 1Y24B6 clearfix">
-                            <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-                            <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3a3cafecf4475bba9ef40f1cae4dc545.html" id="lightwidget_3a3cafecf4" name="lightwidget_3a3cafecf4"  scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
+                          </div>
 
-                              <a href="https://www.instagram.com/fanfighttalk/"><h5>Follow: <span class="ig-follow" data-id="f3840c97bb"  data-handle="fanfighttalk" data-count="true" data-size="large" data-username="true"></span></h5></a>
-                              <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
+                          <div class="col s12">
+                              <h3 id="clock"><u>Date and Time:</u>:<i id="demo"></i></h3>
+
                           </div>
 
                       </div>
 
-                      <div class="video-container" id="twitter_widget" class="col s6">
+                  </div>
 
-                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/fanfighttalk" data-widget-id="716485143699935233">Tweets by @fanfighttalk</a>
-                          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                            <h5>Follow: <a href="https://twitter.com/fanfighttalk" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @fanfighttalk</a>
+               <div class="row" ng-view>
 
-                           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                         </h5>
+               </div>
 
-
-                      </div>
-             </div>
-
-           <hr>
-           <div class="row" ng-view>
-
-           </div>
-           <hr>
     </div>
 
         <footer class="page-footer">
             <div class="container">
               <div class="row">
-                <div class="col l6 s12">
-                  <h5><u>Fanfighttalk.com</u><i>"Where the viewers are the reporters!"</i></h5>
-                  <p> Thank you for visiting our site, feel free to send us content, questions, tweets or comments.</p>
-                  <p> Share our page with your friends! E-mail if you're a fighter looking for mutual exposure for an interview.</p>
-                  <p class="grey-text text-lighten-4"></p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5><u>Social Media:</u></h5>
-                    <ul id="footer_imgs">
-                      <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/Instagram.png" alt="Our Instagram" />  Instgram - Follow us!</a></li>
-                      <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/tw.png" alt="Our Instagram" />  Twitter - Follow us!</a></li>
-                      <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/fanfighttalk/"> <img src="static/images/Facebook.png" alt="Our Facebook Group" />  Facebook Group - Join! us!</a></li>
-                      <li><a class="grey-text text-lighten-3" href="https://fanfighttalk@gmail.com"> <img src="static/images/google.png" alt="Our E-mail" />  Email US</a></li>
-                      <li><script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0twfjds6b8a&amp;m=7&amp;s=170&amp;c=b71c1c&amp;cr1=54ff00&amp;f=arial&amp;l=49&amp;cr0=54ff00" async="async"></script></li>
-                    </ul>
-                </div>
+                  <div class="col l6 s12">
+                    <h5></a><u>Fanfighttalk.com</u><img class="circle responsive-img" id="footer_logo" src="./static/images/glove.png" alt="FanfightTalk"></h5>
+                    <h6><i>"A site for the Fans by the Fans!"</i></h6>
+                    <p> Thank you for visiting our site, feel free to send us content, questions, tweets or comments.</p>
+                    <p> Share our page with your friends! E-mail if you're a fighter looking for mutual exposure for an interview.</p>
+                  </div>
+
+                  <div class="col l4 offset-l2 s12">
+                    <h5><u>Social Media:</u></h5>
+                      <ul id="footer_imgs">
+                        <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/Instagram.png" alt="Our Instagram" />  Instgram - Follow us!</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fanfighttalk/"> <img src="static/images/tw.png" alt="Our Instagram" />  Twitter - Follow us!</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/fanfighttalk/"> <img src="static/images/Facebook.png" alt="Our Facebook Group" />  Facebook Group - Join! us!</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://fanfighttalk@gmail.com"> <img src="static/images/google.png" alt="Our E-mail" />  Email US</a></li>
+                      </ul>
+                  </div>
+
                   <div class="pain">
-                      <img class="circle responsive-img" id="footer_logo" src="./static/images/glove.png" alt="FanfightTalk"></a>
-                      <p>Thanks to:<a href="http://www.sherdog.com/">Sherdog.com</a></p>
-                      <a class="grey-text text-lighten-4 right" href="#/">Founded March 15th, 2016</a>
+                      <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0twfjds6b8a&amp;m=7&amp;s=170&amp;c=b71c1c&amp;cr1=54ff00&amp;f=arial&amp;l=49&amp;cr0=54ff00" async="async"></script>
+                      <a class="grey-text text-lighten-4 right" href="#/">Founded: March 15th, 2016</a>
                   </div>
 
               </div>
@@ -186,15 +175,18 @@
     <script type="text/javascript">
      $(document).ready(function(){
             // Materialize.toast(message, displayLength, className, completeCallback);
-             Materialize.toast('Follow us on Twitter and Instagram!', 1400);// 4000 is the duration of the toast
+             Materialize.toast('Follow us on Twitter and Instagram!', 1300);// 4000 is the duration of the toast
 
 
        });
              $( document ).ready(function() {
-          $('.button-collapse').sideNav();
+          $('.button-collapse').sideNav({  menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          });
        });
        $(document).ready(function(){
-           $('.slider').slider({full_width: true});
+           $('.slider').slider({full_width: false, indicators: false, height: 190, transition: 80});
 
          document.getElementById("demo").innerHTML = Date();
 
