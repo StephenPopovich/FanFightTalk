@@ -32,7 +32,15 @@ box-shadow: 9px 9px 12px 6px black;
 
 }
 #footer_logo{
+<<<<<<< HEAD
   width: 12%;
+=======
+<<<<<<< HEAD
+  width: 12%;
+=======
+  width: 8%;
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
   height: 10%;
 }
 
@@ -84,7 +92,14 @@ label{
   box-shadow: 3px 3px 12px 2px #b71c1c;
   width: 75%;
   height: 35%
+<<<<<<< HEAD
   margin-left: 35px
+=======
+<<<<<<< HEAD
+  margin-left: 35px
+=======
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 }
 
 
@@ -124,6 +139,10 @@ ol{
   box-shadow: 0px 0px 0px 0px;
   height: 70px;
   width: 220px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 }
 
 .brand-logo img:hover{
@@ -132,6 +151,19 @@ ol{
   width: 250px;
 }
 
+<<<<<<< HEAD
+=======
+=======
+}
+
+.brand-logo img:hover{
+  box-shadow: 0px 0px 0px 0px;
+  height: 70px;
+  width: 250px;
+}
+
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 .brand-logo #minilogo{
   box-shadow: 0px 0px 0px 0px;
   height: 50px;
@@ -142,12 +174,28 @@ ol{
 p{
   font-family: 'Fjalla One', sans-serif;
   color: white;
+<<<<<<< HEAD
   font-size: 18px;
+<<<<<<< HEAD
+=======
+=======
+  font-size: 14px;
+  font-style: oblique;
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 }
 p:hover{
   font-family: 'Fjalla One', sans-serif;
   color: white;
+<<<<<<< HEAD
   font-size: 22px;
+=======
+<<<<<<< HEAD
+  font-size: 22px;
+=======
+  font-size: 25px;
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
   font-style: oblique;
 
 }
@@ -250,11 +298,25 @@ span{
 
 #banner{
   width: 100%;
+<<<<<<< HEAD
   height: 52px;
   padding-left: 28%;
   padding-right: 28%;
   background: darkgrey;
   box-shadow: 4px 4px 8px 2px black;
+=======
+<<<<<<< HEAD
+  height: 42px;
+  padding-left: 24%;
+  padding-right: 24%;
+  background: darkgrey;
+  box-shadow: 3px 3px 8px 2px #b71c1c;
+=======
+  height: 45px;
+  padding-left: 23%;
+  padding-right: 23%;
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 }
 
 ul img{
@@ -284,6 +346,10 @@ ul img{
   box-shadow: 3px 3px 8px 2px white;
 
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 
 #instagram script span{
   left: 300px;
@@ -300,12 +366,44 @@ ul img{
   right: 40%;
   box-shadow: 3px 3px 8px 2px white;
 }
+<<<<<<< HEAD
+
+.twitter-follow-button{
+=======
 
 .twitter-follow-button{
   right: 40%;
   box-shadow: 3px 3px 8px 2px #b71c1c;
 }
 
+=======
+
+#instagram script span{
+  left: 300px;
+  height: 10px;
+  width: 10px;
+}
+
+.ig-follow {
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
+  right: 40%;
+  box-shadow: 3px 3px 8px 2px #b71c1c;
+}
+
+<<<<<<< HEAD
+=======
+.ig-background{
+  right: 40%;
+  box-shadow: 3px 3px 8px 2px white;
+}
+
+.twitter-follow-button{
+  right: 40%;
+  box-shadow: 3px 3px 8px 2px #b71c1c;
+}
+
+>>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 #ourpics{
   width: 100%;
   height: 20%;
@@ -313,8 +411,13 @@ ul img{
 }
 
 #sociallogo{
+<<<<<<< HEAD
   width: 50%;
   height: 50%;
+=======
+  width: 90%;
+  height: 80%;
+>>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
   box-shadow: 0px 0px 0px 0px;
 }
 .IGF.large img{
