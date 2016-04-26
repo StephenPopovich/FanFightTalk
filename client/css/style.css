@@ -22,6 +22,11 @@ box-shadow: 4px 4px 8px 3px black;
   color: white;
 
 }
+
+.side-nav a:hover{
+  color: black;
+
+}
 .side-nav{
   background-color: black;
 
