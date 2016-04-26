@@ -18,7 +18,10 @@ font-family: 'Slabo 27px', serif;
 font-size: 1em;
 box-shadow: 4px 4px 8px 3px black;
 }
+.side-nav a {
+  color: white;
 
+}
 .side-nav{
   background-color: black;
 
