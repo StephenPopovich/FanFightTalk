@@ -5,7 +5,7 @@
 body{
   background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.85;
   position: relative;
   border: 2px solid red;
   width: 100%;
@@ -16,7 +16,7 @@ body{
 .nav-wrapper{
 font-family: 'Slabo 27px', serif;
 font-size: 1em;
-box-shadow: 9px 9px 12px 6px black;
+box-shadow: 4px 4px 8px 3px black;
 }
 
 .side-nav{
@@ -49,15 +49,31 @@ footer.page-footer{
 }
 
 #slide_img img{
-  padding-top: 100px;
-  height: 100px;
+  height: 120px;
   width: 900px;
 }
 
+
+
 .slider h3{
-  color: red;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   font-family: 'Fjalla One', sans-serif;
 
+}
+
+.slider h6{
+  color: #b71c1c;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 label{
@@ -140,13 +156,11 @@ ol{
   width: 250px;
 }
 
->>>>>>> 9c406ee38ec68615826e0e2e97fb42c7fb4ba40d
->>>>>>> 4275a2aa130c777c062eae154077fb9b430e8107
 .brand-logo #minilogo{
   box-shadow: 0px 0px 0px 0px;
   height: 50px;
-  width: 60px;
-  margin-bottom: 15px;
+  width: 58px;
+  margin-bottom: 18px;
 
 }
 p{
@@ -164,7 +178,7 @@ p:hover{
   font-style: oblique;
 
 }
-h8, h2, h10, h5, h6{
+h2, h10, h5, h6{
   color: white;
   font-family: 'Ultra', serif;
   line-height: 1.4;
@@ -175,7 +189,7 @@ h1{
   font-family: monospace;
 }
 
-h5, h4, h3, h10, ul{
+h5, h4, h3, h8, ul{
   font-family: 'Allerta Stencil', sans-serif;
   color: white;
 }
@@ -266,8 +280,11 @@ span{
   height: 42px;
   padding-left: 24%;
   padding-right: 24%;
-  background: darkgrey;
+  background-image: url("http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg");
   box-shadow: 3px 3px 8px 2px #b71c1c;
+  background-size:  cover;
+  opacity: 0.9;
+  position: relative;
 
 }
 
@@ -557,7 +574,7 @@ img{
 }
 
 #clock, #demo{
-  font-size: 100%;
+
   opacity: 0.65;
 }
 
