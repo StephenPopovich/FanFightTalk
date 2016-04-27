@@ -7,13 +7,12 @@
       <div class="nav-wrapper">
         <div class="col center-align s12">
           <a href="#/news" class="breadcrumb"> 1 </a>
-          <a href="#/orders" class="breadcrumb"> 2 </a>
+          <a href="#/news1" class="breadcrumb"> 2 </a>
           <a href="#/news2" class="breadcrumb"> 3 </a>
-          <a href="#/news3" class="breadcrumb"> 4 </a>
+          <a href="#/news3" class="breadcrumb"><span class="active"> 4 <span></a>
         </div>
       </div>
     </nav>
-
 
 
       <div class="row">
@@ -109,17 +108,16 @@
           </div>
 
 
-            <nav>
-              <div class="nav-wrapper">
-                <div class="col center-align s12">
-                  <a href="#/news" class="breadcrumb"> 1 </a>
-                  <a href="#/orders" class="breadcrumb"> 2 </a>
-                  <a href="#/news2" class="breadcrumb"> 3 </a>
-                  <a href="#/news3" class="breadcrumb"> 4 </a>
-                </div>
+          <nav>
+            <div class="nav-wrapper">
+              <div class="col center-align s12">
+                <a href="#/news" class="breadcrumb"> 1 </a>
+                <a href="#/news1" class="breadcrumb"> 2 </a>
+                <a href="#/news2" class="breadcrumb"> 3 </a>
+                <a href="#/news3" class="breadcrumb"> <span class="active">4</span></a>
               </div>
-            </nav>
-
+            </div>
+          </nav>
 
 
       <div class="messages">
@@ -139,7 +137,7 @@
                 <p ng-bind="comment.comment"></p>
             </div>
 
-            <label for="">Post a commnet:</label>
+            <label for="">Post a comment:</label>
             <textarea ng-model="newComment.comment"></textarea>
             <button ng-click="postComment(newComment, message)" class="waves-effect waves-red btn"><i class="material-icons left">chat_bubble_outline</i>Post a Comment</button>
 

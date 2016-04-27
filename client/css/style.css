@@ -24,6 +24,13 @@ font-size: 1em;
 box-shadow: 3px 3px 6px 2px black;
 width: 99%;
 }
+
+.active{
+  font-size: 22px;
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .side-nav a {
   color: white;
 
@@ -577,7 +584,6 @@ img{
   padding-left: 40px;
   opacity: 0.80;
 }
-
 #share-buttons img{
   width: 40px;
   height: 50px;
@@ -585,19 +591,9 @@ img{
 #founders img{
   width: 420px;
   height: 400px;
-  box-shadow: 6px 6px 12px 4px #b71c1c;
+  box-shadow: 6px 6px 8px 4px #b71c1c;
 }
 
-#founders img{
-  width: 450px;
-  height: 400px;
-  box-shadow: 6px 6px 12px 4px white;
-}
-
-#clock, #demo{
-
-  opacity: 0.65;
-}
 
 .pain img{
   width: 280px;
