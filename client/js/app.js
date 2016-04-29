@@ -19,7 +19,7 @@ var app = angular.module('fullMeanWall', ['ngRoute'])
       })
 
       .when('/news1', {
-         templateUrl: './partials/orders.html'
+         templateUrl: './partials/news1.html'
 
       })
 
