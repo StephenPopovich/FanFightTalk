@@ -14,6 +14,8 @@
   </nav>
 
 
+
+
         <div class="row">
               <div class="col s12">
                 <h5>UFC 200 Diaz Vs. McGregor 100% <u>NOT</u> Happening</h5>
@@ -24,7 +26,7 @@
                   <img src="/static/images/tweet5.png" alt="" />
               </div>
               <div class="col s12">
-                  <p>Conor posted this tweet earlier this week randomly, after Dana white stated serval times at the UFC 200 conference he wont not be fighting at UFC200.</p>
+                  <p>Conor posted this tweet earlier this week randomly, after Dana White stated serval times at the UFC 200 conference he wont not be fighting at UFC200.</p>
                   <p>Dana White later replies confused like rest of us, Dana had this to say:</p>
                   <p><span class="quote">“It's not true. We haven't talked to Conor or his manger since the press conference."</span> Conor push to pressure Lorenzo Fertitta and Dana White into giving in has failed.</p>
                   <p>UFC isn't budging on this one, promote or you dont fight. Simple as that, contracts should be clearer and nagotiations should take place prior to any promoting.</p>
@@ -39,8 +41,7 @@
 
                 <p><strong>Nate Diaz</strong> kept his word. If the money isn't right he is not going to fight. Especially, after all the fuss over a rematch with Conor.</p>
                     <p>Somewhere Dana is shaking his head and Conor is swearing his head off in a gym. Another fight we will have to wait just a little longer for...<p>
-                    <p>Hopefully next time, both will be fully prepared before stepping back into the octagon together full camp, focus and all.</p>
-
+                    <p>Hopefully, next time both will be fully prepared before stepping back into the octagon together full camp, focus and all.</p>
               </div>
           </div>
 
@@ -157,21 +158,22 @@
 
                 <div class="row">
 
-                      <h6 class="pickuser">Pick a username and areacode to comment below!</h6>
+                      <h6 class="pickuser">Pick an Username and Areacode to comment below!</h6>
 
                       <form class="login" ng-submit="loginUser(newUser)" novalidate name="login">
-                        <div class="input-field col s7">
-                          <i class="material-icons prefix">account_circle</i>
+                        <div class="input-field col m6 s12">
+                          <i class="mdi-action-account-circle prefix"></i>
                           <input id="icon_prefix" type="text" class="validate"  ng-trim="false" ng-model="newUser.name" ng-pattern="/^[a-zA-Z0-9_]*$/" name="username" ng-maxlength="25" required>
-                          <label for="icon_prefix">Name/Username</label>
+                          <label for="icon_prefix">Name</label>
                         </div>
-                        <div class="input-field col s4">
-                          <i class="material-icons prefix">phone</i>
+                        <div class="input-field col m6 s12">
+                          <i class="mdi-maps-store-mall-directory prefix"></i>
                            <input id="icon_room" type="tel" class="validate" ng-trim="false" ng-model="newUser.zipcode" ng-pattern="/^[a-zA-Z0-9_]*$/" name="userzipcode" ng-maxlength="3" required>
                           <label for="icon_room">Area code</label>
                           <button ng-show="login.$valid" class="waves-effect waves-red btn"><i class="material-icons left">vpn_key</i>Log in</button>
-                      </form>
                         </div>
+                      </form>
+
 
                 </div>
 
