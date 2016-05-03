@@ -418,7 +418,7 @@ ul img{
 #error-dialog i {
    margin-right: 5px;
 }
-.topfighters ol{
+.topfighters li{
   font-family: 'Slabo 27px', serif;
   padding-left: 35px;
   font-size: 35px;
@@ -481,15 +481,11 @@ ul img{
  border-radius: 6px;
 }
 /*icon prefix focus color */
-.input-field .prefix.active {
+.input-field .prefix:active {
  color: #b71c1c;
 }
 .input-field .prefix {
   color: white;
-}
-
-.material-icon .prefix.active {
- color: #b71c1c;
 }
 
 textarea .prefix.active {
