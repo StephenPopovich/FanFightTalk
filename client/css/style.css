@@ -433,6 +433,10 @@ ul img{
   border-radius: 6px;
 }
 
+table li{
+  color: white;
+}
+
 /* label color */
 .input-field label {
  color: #b71c1c;
