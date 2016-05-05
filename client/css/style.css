@@ -28,15 +28,16 @@ width: 99%;
   background-color: black;
   color: red;
 }
-.dropdown-content{
+.dropdown2{
   background-color: black;
-  font: red;
   color: red;
 }
-.dropdown-content{
+.dropdown-content li{
   background-color: black;
-  font: red;
   color: red;
+}
+.dropdown-content:active{
+  font: red;
 }
 
 .active{
