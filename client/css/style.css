@@ -24,6 +24,20 @@ font-size: 1em;
 box-shadow: 3px 3px 6px 2px black;
 width: 99%;
 }
+.dropdown2{
+  background-color: black;
+  color: red;
+}
+.dropdown-content{
+  background-color: black;
+  font: red;
+  color: red;
+}
+.dropdown-content{
+  background-color: black;
+  font: red;
+  color: red;
+}
 
 .active{
   font-size: 22px;
@@ -433,7 +447,7 @@ ul img{
   border-radius: 6px;
 }
 
-table li{
+table, li{
   color: white;
 }
 
